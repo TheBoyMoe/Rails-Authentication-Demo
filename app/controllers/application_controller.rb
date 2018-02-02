@@ -3,5 +3,4 @@ class ApplicationController < ActionController::Base
 
   # call application concerns
   include DeviseWhitelist
-  include CurrentUserConcern
 end
